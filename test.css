@@ -1,0 +1,104 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #ff8c00;
+    /* Orange */
+    color: #ffffff;
+    /* White */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#top-nav {
+    margin-top: 10px;
+}
+
+#top-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#top-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    background-color: #ffffff;
+    /* White */
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h1 {
+    text-align: center;
+    color: #4169e1;
+    /* Blue */
+    margin-bottom: 20px;
+}
+
+main p {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+/* Bottom navigation styles */
+#bottom-nav {
+    background-color: #d2b48c;
+    /* Tan */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#bottom-nav a {
+    color: #4169e1;
+    /* Blue */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#bottom-nav a:hover {
+    background-color: #ff8c00;
+    /* Orange */
+    color: #ffffff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    #top-nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #bottom-nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
