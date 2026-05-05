@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+
+/* Header & Nav */
+header {
+    background-color: #f37021; /* SHSU Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* The Button Grid */
+.link-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+    gap: 20px;
+}
+
+.btn {
+    background-color: #f5f5f5;
+    border: 2px solid #F36E21; /* SHSU Orange */
+    color: #003366;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #F36E21;
+    color: white;
+}
+
+/* Centers the final button at the bottom */
+.full-width {
+    grid-column: span 2;
+    margin: 0 auto;
+    width: 50%;
+}
